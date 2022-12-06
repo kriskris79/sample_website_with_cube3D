@@ -1,13 +1,16 @@
-import Navbar from "./Components/Navbar";
-import MainPage from "./Components/MainPage";
-import OutlineTypesExample from "./Components/OutlineTypesExample";
+import "./scss/_main.scss";
+// import Navbar from "./components/Navbar";
+import MainPage from "./components/MainPage";
+import OutlineTypesExample from "./components/OutlineTypesExample";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-        <MainPage />
+    <div >
+
+
         <OutlineTypesExample />
+        <MainPage />
+
     </div>
   );
 }

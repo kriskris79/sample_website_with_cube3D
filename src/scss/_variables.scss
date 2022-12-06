@@ -12,12 +12,15 @@ $bodyFont: 'Times new Roman', Times, serif;
 
 
 //Mixin
+//
+//@mixin buttonStyle($color, $fontSize){
+//  width: 125px;
+//  height: 40px;
+//  background-color: $color;
+//  border: none;
+//  border-radius: 56px;
+//  font-size: $fontSize;
+//}
+//
 
-@mixin buttonStyle($color, $fontSize){
-  width: 200px;
-  height: 40px;
-  background-color: $color;
-  border: none;
-  border-radius: 25px;
-  font-size: $fontSize;
-}
+

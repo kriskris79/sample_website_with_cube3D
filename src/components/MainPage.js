@@ -1,5 +1,5 @@
 import React from "react";
-import '../Styles/MainPage.scss';
+import '../styles/_mainPage.scss';
 
 
 
