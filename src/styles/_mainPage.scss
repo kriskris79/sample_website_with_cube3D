@@ -1,5 +1,5 @@
 @import "../scss/variables";
-@import "~bootstrap/scss/bootstrap";
+//@import "~bootstrap/scss/bootstrap";
 
 
 
@@ -7,10 +7,10 @@
 
 
 
-//.mainPage {
-//  display: flex;
-//justify-content: center;
-//  align-items: center;
+.mainPage {
+  display: flex;
+justify-content: center;
+  align-items: center;}
 
   h1{
 color: $blueColor;

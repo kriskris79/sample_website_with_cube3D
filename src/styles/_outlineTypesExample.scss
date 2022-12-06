@@ -1,5 +1,5 @@
-@import "../scss/variables";
-@import "~bootstrap/scss/bootstrap";
+//@import "../scss/variables";
+//@import "~bootstrap/scss/bootstrap";
 
 
 .navbar2 {
@@ -7,7 +7,7 @@
   height: 80px;
   padding-left: 0px;
   margin-left: 0px;
-  background-color: $limegreenColor;
+  background-color: $verylightblueColor;
 
 }
 
@@ -17,6 +17,10 @@
 
 }
 
+
+//display: flex;
+//justify-content: flex-end;
+//align-items: center;
 body{
   margin: 0%;
   padding: 0%;
