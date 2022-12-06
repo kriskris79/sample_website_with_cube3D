@@ -1,0 +1,23 @@
+
+//Colors
+$limegreenColor: rgb(50,205,50);
+$whiteColor: rgb(238, 238, 238);
+$blueColor: rgb(9, 100, 152);
+$mediumspringgreenColor: rgb(0,250,154);
+
+
+// Fonts
+$titleFont: Arial, Helvetica, sans-serif;
+$bodyFont: 'Times new Roman', Times, serif;
+
+
+//Mixin
+
+@mixin buttonStyle($color, $fontSize){
+  width: 200px;
+  height: 40px;
+  background-color: $color;
+  border: none;
+  border-radius: 25px;
+  font-size: $fontSize;
+}
