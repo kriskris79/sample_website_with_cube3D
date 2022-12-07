@@ -1,33 +1,39 @@
 //@import "../scss/variables";
 //@import "~bootstrap/scss/bootstrap";
-//
-//
-//.navbar {
-//  width: 100%;
-//  height: 80px;
-//  background-color: $limegreenColor;
-//  display: flex;
-//  justify-content: flex-end;
-//  align-items: center;
-//}
-//
-//.navbar a {
-//  color: $whiteColor;
-//  font-size: 25px;
-//  text-decoration: none;
-//  margin: 10px;
-//  font-family: $titleFont ;
-//}
-//
-//.navbar .links {
-//  margin-right: 100px;
-//}
-//
-//body{
-//  margin: 0%;
-//  padding: 0%;
-//}
 
-//.button {
-//  @include buttonStyle($mediumspringgreenColor, 20px);
-//}
+
+.navbar2 {
+  width: 100%;
+  height: 80px;
+  padding-left: 0px;
+  margin-left: 0px;
+  background-color: $verylightblueColor;
+
+}
+
+.navbar2 .buttonsStyle {
+
+  margin: 20px;
+
+}
+
+
+.navbar-text{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
+  padding-right: 20px;
+  margin-left: 0px;
+}
+
+//display: flex;
+//justify-content: flex-end;
+//align-items: center;
+body{
+  margin: 0%;
+  padding: 0%;
+}
+
+

@@ -1,6 +1,7 @@
 @import "../scss/variables";
 
 .footer-container {
+    //text-decoration: none;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -11,5 +12,11 @@
     padding-left: 20px;
     margin-left: 0px;
     background-color: $verylightblueColor;
+
+}
+
+.a {
+    text-decoration: none;
+
 
 }
