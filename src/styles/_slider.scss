@@ -1,0 +1,14 @@
+@import "../scss/variables";
+
+
+.d-block .w-100
+{
+  /* Full height */
+  height: 90vh;
+width: 90vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
