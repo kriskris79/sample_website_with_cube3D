@@ -3,6 +3,7 @@ import "./scss/_main.scss";
 import MainPage from "./components/MainPage";
 import OutlineTypesExample from "./components/OutlineTypesExample";
 import Footer from "./components/Footer";
+import Slider from "./components/Slider";
 
 function App() {
   return (
@@ -10,8 +11,10 @@ function App() {
 
 
         <OutlineTypesExample />
+        <Slider />
         <MainPage />
         <Footer />
+
     </div>
   );
 }

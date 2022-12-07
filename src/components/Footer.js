@@ -7,6 +7,6 @@ const Footer = () => {
                 <a href="../contact">Contact</a>
                 <a href="../weddingslideshow">Wedding slideshow</a>
             </div>
-    )
+    );
 }
 export default Footer;
