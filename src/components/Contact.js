@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-
+import Button from 'react-bootstrap/Button';
 
 
 const Contact = () => {
@@ -45,10 +45,12 @@ const Contact = () => {
                 <textarea name="message" />
                 <label>Any additional details you would like to share ? </label>
                 <textarea name="message" />
-                <input type="submit" value="Send" />
+                <Button input type="submit" value="Send" variant="outline-primary" a className="buttonsStyle" >Send</Button>{' '}
             </form>
         </div>
     );
 };
 
 export default Contact;
+
+// <input type="submit" value="Send" />

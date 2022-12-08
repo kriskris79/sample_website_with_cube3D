@@ -50,13 +50,16 @@ form {
 
   label {
     margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   input[type="submit"] {
-    margin-top: 2rem;
-    cursor: pointer;
-    background: $blueColor;
-    color: white;
-    border: none;
+    margin-top: 40px;
+    padding: 20px;
+    align-items: stretch;
+    //cursor: pointer;
+    //background: $blueColor;
+    //color: white;
+    //border: none;
   }
 }
