@@ -6,7 +6,7 @@ import React from "react";
 function MainPage() {
     return (
         <div className="mainPage">
-            <h1> Welcome to the KrisLens Website</h1>
+            <h2> Welcome to the KrisLens Website</h2>
 
         </div>
     );

@@ -1,4 +1,4 @@
-//@import "../scss/variables";
+@import "../scss/variables";
 //@import "~bootstrap/scss/bootstrap";
 
 
@@ -25,12 +25,14 @@
 .navbar-text{
   display: flex;
   justify-content: flex-end;
-  align-items: center;
-  align-content: center;
+  //align-items: center;
+  //align-content: center;
   gap: 20px;
   padding-right: 20px;
   margin-left: 0px;
 }
+
+
 
 //display: flex;
 //justify-content: flex-end;

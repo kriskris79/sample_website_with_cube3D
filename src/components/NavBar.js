@@ -6,12 +6,13 @@ function NavBar() {
         <>
             <div className="navbar2">
 
-                <Button variant="outline-primary" a className="buttonsStyle" href="../main">Main</Button>{' '}
-                <Button variant="outline-primary" a className="buttonsStyle" href="../contact">Contact</Button>{' '}
-                <Button variant="outline-primary" a className="buttonsStyle" href="../blog">Blog</Button>{' '}
+                <Button variant="outline-primary"  className="buttonsStyle" href="../main">Main</Button>{' '}
+                <Button variant="outline-primary"  className="buttonsStyle" href="../contact">Contact</Button>{' '}
+                <Button variant="outline-primary"  className="buttonsStyle" href="../blog">Blog</Button>{' '}
+                <div className="navbar-text">
+                    KrisLens Wedding Photographer/Kent/UK
+                </div>
 
-<div className="navbar-text"> KrisLens Wedding Photographer/Kent/UK
-</div>
 
 
             </div>
@@ -22,3 +23,4 @@ function NavBar() {
 export default NavBar;
 
 //OutlineTypesExample
+
