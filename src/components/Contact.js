@@ -53,4 +53,3 @@ const Contact = () => {
 
 export default Contact;
 
-// <Button input type="submit" value="Send" variant="outline-primary" a className="buttonsStyle" >Send</Button>{' '}
