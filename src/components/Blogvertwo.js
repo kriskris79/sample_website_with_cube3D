@@ -12,15 +12,15 @@ function Blogvertwo() {
 
     //hooks
 const [data, setDate] = useState([])
-// sample address of api https://jsonplaceholder.typicode.com/posts/
+// sample address of api https://krislens.com/wp-json/wp/v2/posts  https://jsonplaceholder.typicode.com/posts/
 
     useEffect(() => {
-        Axios.get('https://krislens.com/wp-json/wp/v2/categories/14')
+        Axios.get('https://krislens.com/wp-json/wp/v2/posts')
             .then(res => {
                 console.log("Getting form data ::::", res.data)
                 setDate(res.data) //for hooks
 
-            }).catch(err => console.log('Error getting all data from API', err))
+            }).catch(err => console.log('Error getting all data from API ::::', err))
     }, [])
 
 
