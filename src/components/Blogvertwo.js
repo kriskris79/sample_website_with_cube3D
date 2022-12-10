@@ -2,10 +2,11 @@
 
 
 import {useEffect, useState} from "react";
+import parse from 'html-react-parser';
 import Axios from 'axios'
 
 
-//fake API for testing https://jsonplaceholder.typicode.com/ you can use fetch but axios is better more secure
+//fake API for testing https://jsonplaceholder.typicode.com/ you can use fetch but axios is better more secure ect
 
 
 function Blogvertwo() {
@@ -15,27 +16,13 @@ const [data, setDate] = useState([])
 // sample address of api https://krislens.com/wp-json/wp/v2/posts  https://jsonplaceholder.typicode.com/posts/
 
     useEffect(() => {
-        Axios.get('https://krislens.com/wp-json/wp/v2/posts')
-            .then(res => {
-                console.log("Getting form data ::::", res.data)
-                setDate(res.data) //for hooks
-
-            }).catch(err => console.log('Error getting all data from API ::::', err))
+        fetch('https://krislens.com/wp-json/wp/v2/posts')
+            .then(res => res.json())
+            .then(res => setDate(res))
+            .catch(err => console.log('Error getting all data from API ::::', err))
     }, [])
 
 
-    //for rendering
-    const arr = data.map((data, index) => {
-    return (
-
-        <tr>
-            <td>{data.id}</td>
-            <td>{data.name}</td>
-            <td>{data.link}</td>
-        </tr>
-
-    )
-    })
 
     return (
         <div className="blog-container">
@@ -48,7 +35,24 @@ const [data, setDate] = useState([])
                     <th>Name</th>
                     <th>Link</th>
                 </tr>
-                {arr}
+                {
+                    data.map((data, index) => {
+                        return (
+
+                            <tr key={data.id}>
+                                <td>{data.id}</td>
+                                <td>{data.title.rendered}</td>
+                                <td>
+                                    <a href={data.link} alt={data.title.rendered}>
+                                        {data.title.rendered}
+                                    </a>
+                                </td>
+                                {/*<td>{parse(data.content.rendered)}</td>*/}
+                            </tr>
+
+                        )
+                    })
+                }
 
                 </tbody>
             </table>
