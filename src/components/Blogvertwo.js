@@ -1,4 +1,5 @@
 
+import Table from 'react-bootstrap/Table';
 
 
 import {useEffect, useState} from "react";
@@ -28,7 +29,8 @@ const [data, setDate] = useState([])
         <div className="blog-container">
            {/*<h1> T  </h1>*/}
 
-            <table>
+            {/*<table>*/}
+                <Table striped bordered hover variant="dark">
                 <tbody>
                 <tr>
                     {/*<th>ID</th>*/}
@@ -55,8 +57,8 @@ const [data, setDate] = useState([])
                 }
 
                 </tbody>
-            </table>
-
+            {/*</table>*/}
+        </Table>
         </div>
     );
 }
