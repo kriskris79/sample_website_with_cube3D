@@ -18,6 +18,7 @@ function App() {
         <Contact />
         <Blog />
         <Blogvertwo />
+
         <Footer />
 
 
