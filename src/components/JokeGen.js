@@ -5,7 +5,7 @@ import React, {useState} from "react";
 // import {Axios} from "axios";
 
 
-function Blog() {
+function JokeGen() {
     const [joke, setJoke] = useState("");
     const getJoke = () => {
 
@@ -23,7 +23,7 @@ function Blog() {
     );
 }
 
-export  default Blog;
+export  default JokeGen;
 
 
 
@@ -32,7 +32,7 @@ export  default Blog;
 // import {Axios} from "axios";
 //
 //
-// function Blog() {
+// function JokeGen() {
 //     const [joke, setJoke] = useState("");
 //     const getJoke = () => {
 // // why its happens ?
@@ -51,4 +51,4 @@ export  default Blog;
 //     );
 // }
 //
-// export  default Blog;
+// export  default JokeGen;

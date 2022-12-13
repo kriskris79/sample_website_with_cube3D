@@ -1,7 +1,7 @@
 @import "../scss/variables";
 
 
-.blog-container {
+.blog-container-two {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -15,12 +15,12 @@ table {
   border-collapse: collapse;
 }
 
-td, th {
-  border: 1px solid $mediumspringgreenColor;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: $mediumspringgreenColor;
-}
+//td, th {
+//  border: 1px solid $mediumspringgreenColor;
+//  text-align: left;
+//  padding: 8px;
+//}
+//
+//tr:nth-child(even) {
+//  background-color: $mediumspringgreenColor;
+//}

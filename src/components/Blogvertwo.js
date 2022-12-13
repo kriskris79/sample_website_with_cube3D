@@ -14,10 +14,10 @@ function Blogvertwo() {
 
     //hooks
 const [data, setDate] = useState([])
-// sample address of api https://krislens.com/wp-json/wp/v2/posts  https://jsonplaceholder.typicode.com/posts/
+// sample address of api https://krislens.com/wp-json/wp/v2/posts?per_page=60
 
     useEffect(() => {
-        fetch('https://krislens.com/wp-json/wp/v2/posts')
+        fetch('https://krislens.com/wp-json/wp/v2/posts?')
             .then(res => res.json())
             .then(res => setDate(res))
             .catch(err => console.log('Error getting all data from API ::::', err))
@@ -26,7 +26,7 @@ const [data, setDate] = useState([])
 
 
     return (
-        <div className="blog-container">
+        <div className="blog-container-two">
            {/*<h1> T  </h1>*/}
 
             {/*<table>*/}

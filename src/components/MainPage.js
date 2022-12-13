@@ -6,10 +6,29 @@ import React from "react";
 function MainPage() {
     return (
         <div className="mainPage">
-            <h2> Welcome to the KrisLens Website</h2>
 
+            {/*<div class="font-bold text-6xl"> text testowy</div>*/}
+            <h2> Welcome to the KrisLens Website</h2>
+            {/*<script src="https://cdn.tailwindcss.com"> </script>;*/}
         </div>
     );
 }
 
 export  default MainPage
+
+
+//
+// import React from "react";
+// // import '../styles/_mainPage.scss';
+//
+//
+// function MainPage() {
+//     return (
+//         <div className="mainPage">
+//             <h2> Welcome to the KrisLens Website</h2>
+//
+//         </div>
+//     );
+// }
+//
+// export  default MainPage
