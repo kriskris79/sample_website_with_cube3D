@@ -10,7 +10,7 @@ import Axios from 'axios'
 //fake API for testing https://jsonplaceholder.typicode.com/ you can use fetch but axios is better more secure ect
 
 
-function Blogvertwo() {
+function BlogWordpress() {
 
     //hooks
 const [data, setDate] = useState([])
@@ -63,7 +63,7 @@ const [data, setDate] = useState([])
     );
 }
 
-export  default Blogvertwo;
+export  default BlogWordpress;
 
 
 
@@ -77,7 +77,7 @@ export  default Blogvertwo;
 // //fake API for testing https://jsonplaceholder.typicode.com/ you can use fetch but axios is better more secure ect
 //
 //
-// function Blogvertwo() {
+// function BlogWordpress() {
 //
 //     //hooks
 //     const [data, setDate] = useState([])
@@ -129,4 +129,4 @@ export  default Blogvertwo;
 //     );
 // }
 //
-// export  default Blogvertwo;
+// export  default BlogWordpress;

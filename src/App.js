@@ -4,8 +4,9 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import JokeGen from "./components/JokeGen";
 import Slider from "./components/Slider";
-import Blogvertwo from "./components/Blogvertwo";
+import BlogWordpress from "./components/BlogWordpress";
 import Contact from "./components/Contact";
+import CubeWithPictures from "./components/CubeWithPictures";
 
 function App() {
   return (
@@ -15,9 +16,10 @@ function App() {
         <NavBar />
         <Slider />
         <MainPage />
+        <CubeWithPictures />
         <Contact />
 
-        <Blogvertwo />
+        <BlogWordpress />
         <JokeGen />
         <Footer />
 
