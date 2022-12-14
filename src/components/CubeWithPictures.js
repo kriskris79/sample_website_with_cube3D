@@ -13,7 +13,6 @@ const CubeWithPictures = () => {
 
         <div  className="cube-container">
             <p className="cube-text"> 3D cube model with the pictures </p>
-            {/*<h1>react-3d-cube</h1>*/}
             <div
                 style={{
                     width: 350,
@@ -21,8 +20,8 @@ const CubeWithPictures = () => {
                 }}
             >
                 <Cube size={350} index="front">
-                    <img src={img1} alt="picturenr1"/>
-                    <img src={img2} alt="picturenr2"/>
+                    <img src={img1} alt="picturenr1"    />
+                    <img src={img2} alt="picturenr2"  />
                     <img src={img3} alt="picturenr3"/>
                     <img src={img4} alt="picturenr4"/>
                     <img src={img5} alt="picturenr5"/>

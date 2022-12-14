@@ -34,18 +34,18 @@ const Contact = () => {
     return (
         <div className="StyledContactForm">
 
-            <form ref={form} onSubmit={sendEmail}>
+            <form ref={form} onSubmit={sendEmail} aria-label="form ">
                 <label>Your Name</label>
-                <input type="text" name="user_name" />
+                <input type="text" name="user_name" aria-label="write your name " id="user-name" placeholder="Type your name"/>
                 <label>Your Email</label>
-                <input type="email" name="user_email" />
+                <input type="email" name="user_email" aria-label="write your email" id="user-email" placeholder="mqo@example.com"/>
                 <label>Date you need me DD/MM/YYYY</label>
-                <textarea name="message" />
+                <textarea name="date" aria-label="write your date when do you need me " id="date" placeholder="12/01/2023"/>
                 <label>Location</label>
-                <textarea name="message" />
+                <textarea name="location" aria-label="write your location " id="location" placeholder="any destination"/>
                 <label>Any additional details you would like to share ? </label>
-                <textarea name="message" />
-                <input type="submit" value="Send" />
+                <textarea name="message" aria-label="write the massage  " id="message" placeholder="up to you :) " />
+                <input type="submit" value="Send" aria-label="click to sent  "  />
             </form>
         </div>
     );

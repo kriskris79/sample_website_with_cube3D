@@ -22,5 +22,5 @@ function NavBar() {
 
 export default NavBar;
 
-//OutlineTypesExample
+
 

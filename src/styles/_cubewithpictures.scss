@@ -1,9 +1,9 @@
-
+@import "../scss/variables";
 
 .cube-container {
   background-image: url("../images/backnr3.jpg");
   background-size: 500px 500px;
-  height: 100vh;
+  height: 500px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -13,5 +13,8 @@
  .cube-text {
    z-index: 1;
    color: white;
-
- }
+     line-height: 1;
+     font-size: 15px;
+     text-shadow: 6px 5px 4px $blueColorShadow;
+     font-weight: bold;
+   }
