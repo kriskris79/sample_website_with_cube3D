@@ -1,9 +1,17 @@
 
 
 .cube-container {
+  background-image: url("../images/backnr3.jpg");
+  background-size: 500px 500px;
   height: 100vh;
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content:center ;
   align-items: center;
 }
+ .cube-text {
+   z-index: 1;
+   color: white;
+
+ }
