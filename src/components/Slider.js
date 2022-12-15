@@ -14,7 +14,7 @@ function Slider() {
             <div className='p-5'>
                 <Carousel interval={null}>
                     <Carousel.Item>
-                        <img style={{maxHeight:"90% - 10%"}}
+                        <img style={{maxHeight:"90%"} }
                              className="d-block w-100"
                              src={img1}
                              alt="First slide"
@@ -25,7 +25,7 @@ function Slider() {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img style={{maxHeight:"100vh"}}
+                        <img style={{maxHeight:"90%"}}
                             className="d-block w-100"
                              src={img2}
                             alt="Second slide"
@@ -37,7 +37,7 @@ function Slider() {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img style={{maxHeight:"100vh"}}
+                        <img style={{maxHeight:"90%"}}
                             className="d-block w-100"
                              src={img3}
                             alt="Third slide"
@@ -50,7 +50,7 @@ function Slider() {
                     </Carousel.Item>
 
                     <Carousel.Item>
-                        <img style={{maxHeight:"100vh"}}
+                        <img style={{maxHeight:"90%"}}
                              className="d-block w-100"
                              src={img4}
                              alt="Forth slide"
@@ -63,7 +63,7 @@ function Slider() {
                     </Carousel.Item>
 
                     <Carousel.Item>
-                        <img style={{maxHeight:"100vh"}}
+                        <img style={{maxHeight:"90%"}}
                              className="d-block w-100"
                              src={img5}
                              alt="Fifth slide"
@@ -76,7 +76,7 @@ function Slider() {
                     </Carousel.Item>
 
                     <Carousel.Item>
-                        <img style={{maxHeight:"100vh"}}
+                        <img style={{maxHeight:"90%"}}
                              className="d-block w-100"
                              src={img6}
                              alt="Sixth slide"

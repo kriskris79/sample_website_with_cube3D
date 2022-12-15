@@ -6,7 +6,7 @@ function NavBar() {
         <>
             <div className="navbar2">
 
-                <Button variant="outline-primary"  className="buttonsStyle" href="../main">Main</Button>{' '}
+                <Button variant="outline-primary"  className="buttonsStyle" href="#main">Main</Button>{' '}
                 <Button variant="outline-primary"  className="buttonsStyle" href="../contact">Contact</Button>{' '}
                 <Button variant="outline-primary"  className="buttonsStyle" href="../blog">Blog</Button>{' '}
                 <div className="navbar-text">

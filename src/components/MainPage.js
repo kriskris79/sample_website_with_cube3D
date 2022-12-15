@@ -5,7 +5,7 @@ import React from "react";
 
 function MainPage() {
     return (
-        <div className="mainPage">
+        <div className="mainPage" id='main'>
 
             {/*<div class="font-bold text-6xl"> text testowy</div>*/}
             <h2> Welcome to the KrisLens Website</h2>

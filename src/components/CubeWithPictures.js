@@ -20,12 +20,12 @@ const CubeWithPictures = () => {
                 }}
             >
                 <Cube size={350} index="front">
-                    <img src={img1} alt="picturenr1"    />
-                    <img src={img2} alt="picturenr2"  />
-                    <img src={img3} alt="picturenr3"/>
-                    <img src={img4} alt="picturenr4"/>
-                    <img src={img5} alt="picturenr5"/>
-                    <img src={img6} alt="picturenr6"/>
+                    <img src={img1} alt="wedding_picture_nr1"    />
+                    <img src={img2} alt="wedding_picture_nr2"  />
+                    <img src={img3} alt="wedding_picture_nr3"/>
+                    <img src={img4} alt="wedding_picture_nr4"/>
+                    <img src={img5} alt="wedding_picture_nr5"/>
+                    <img src={img6} alt="wedding_picture_nr6"/>
                 </Cube>
             </div>
 

@@ -8,6 +8,24 @@ import BlogWordpress from "./components/BlogWordpress";
 import Contact from "./components/Contact";
 import CubeWithPictures from "./components/CubeWithPictures";
 
+
+//
+// function App() {
+//     return (
+//         <BrowserRouter>
+//             <Header />
+//             <Routes>
+//                 <Route path="/" element={<Home />} />
+//                 <Route path="login" element={<Login />} />
+//                 <Route path="contact" element={<Contact />} />
+//             </Routes>
+//             <Footer />
+//         </BrowserRouter>
+//     )
+// }
+//
+// export default App;
+
 function App() {
   return (
     <div >
