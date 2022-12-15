@@ -15,11 +15,11 @@ const CubeWithPictures = () => {
             <p className="cube-text"> 3D cube model with the pictures </p>
             <div
                 style={{
-                    width: 350,
-                    height: 350
+                    width: 500,
+                    height: 500
                 }}
             >
-                <Cube size={350} index="front">
+                <Cube size={500} index="front">
                     <img src={img1} alt="wedding_picture_nr1"    />
                     <img src={img2} alt="wedding_picture_nr2"  />
                     <img src={img3} alt="wedding_picture_nr3"/>
