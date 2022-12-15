@@ -5,7 +5,7 @@ import JokeGen from "./components/JokeGen";
 import MainSlider from "./components/MainSlider";
 import BlogWordpress from "./components/BlogWordpress";
 import Contact from "./components/Contact";
-// import CubeWithPictures from "./components/CubeWithPictures";
+import CubeWithPictures from "./components/CubeWithPictures";
 
 
 
@@ -16,7 +16,7 @@ function App() {
 
         <NavBar />
         <MainSlider />
-        {/*<CubeWithPictures />*/}
+        <CubeWithPictures />
         <Contact />
 
         <BlogWordpress />
