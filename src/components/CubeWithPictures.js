@@ -11,7 +11,7 @@ const CubeWithPictures = () => {
 
     return (
 
-        <div  className="cube-container">
+        <div  className="cube-container" id="cube">
             <p className="cube-text"> 3D cube model with the pictures </p>
             <div
                 style={{

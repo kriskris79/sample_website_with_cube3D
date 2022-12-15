@@ -26,7 +26,7 @@ const [data, setDate] = useState([])
 
 
     return (
-        <div className="blog-container-two">
+        <div className="blog-container-two" id="blog">
            {/*<h1> T  </h1>*/}
 
             {/*<table>*/}

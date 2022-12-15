@@ -7,11 +7,11 @@ import img4 from '../images/img4.jpg';
 import img5 from '../images/img5.jpg';
 import img6 from '../images/img6.jpg';
 
-function Slider() {
+function MainSlider() {
 
     return (
         <>
-            <div className='p-5'>
+            <div className='p-5' id="main">
                 <Carousel interval={null}>
                     <Carousel.Item>
                         <img style={{maxHeight:"90%"} }
@@ -98,7 +98,7 @@ function Slider() {
     );
 }
 
-export default Slider;
+export default MainSlider;
 
 
 

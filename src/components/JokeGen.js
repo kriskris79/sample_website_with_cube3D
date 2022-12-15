@@ -12,11 +12,11 @@ function JokeGen() {
         fetch("https://official-joke-api.appspot.com/random_joke").then(
             (response)=> response.json())
             .then((data) => {
-                setJoke(data.setup + "..." + data.punchline);   //question and answer
+                setJoke(data.setup + "..." + data.punchline);   //questions and answers
             });
     };
     return (
-        <div className="blog-container">
+        <div className="blog-container" id="joke">
             Hi There !  <button className="button-style2 " onClick={getJoke}> Get a joke  </button>
             {joke}
         </div>

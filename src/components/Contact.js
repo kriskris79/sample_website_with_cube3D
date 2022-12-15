@@ -39,7 +39,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="StyledContactForm">
+        <div className="StyledContactForm" id="contact">
 
             <form ref={form} onSubmit={sendEmail} id="textform ">
                 <label>Your Name</label>
