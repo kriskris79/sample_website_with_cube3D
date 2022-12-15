@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/krislens/static/css/main.0310ba7f.css",
-    "main.js": "/krislens/static/js/main.7422fab2.js",
+    "main.css": "/krislens/static/css/main.56bf1a9a.css",
+    "main.js": "/krislens/static/js/main.a8ee181d.js",
     "static/js/787.2821fe49.chunk.js": "/krislens/static/js/787.2821fe49.chunk.js",
     "static/media/img3.gif": "/krislens/static/media/img3.51c05e0adaf4af98bedb.gif",
+    "static/media/backnr3.jpg": "/krislens/static/media/backnr3.58704acb7a68551d99a8.jpg",
     "static/media/img1.jpg": "/krislens/static/media/img1.68c1d6956c31fdaa7dbd.jpg",
     "static/media/img2.jpg": "/krislens/static/media/img2.11d17339eab856a7dcc9.jpg",
     "static/media/img4.jpg": "/krislens/static/media/img4.65df63842ee21d170a9b.jpg",
     "static/media/img6.jpg": "/krislens/static/media/img6.5e829462f42bd2b9a01d.jpg",
     "static/media/img5.jpg": "/krislens/static/media/img5.8632d7c529e376dd2e09.jpg",
     "index.html": "/krislens/index.html",
-    "main.0310ba7f.css.map": "/krislens/static/css/main.0310ba7f.css.map",
-    "main.7422fab2.js.map": "/krislens/static/js/main.7422fab2.js.map",
+    "main.56bf1a9a.css.map": "/krislens/static/css/main.56bf1a9a.css.map",
+    "main.a8ee181d.js.map": "/krislens/static/js/main.a8ee181d.js.map",
     "787.2821fe49.chunk.js.map": "/krislens/static/js/787.2821fe49.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0310ba7f.css",
-    "static/js/main.7422fab2.js"
+    "static/css/main.56bf1a9a.css",
+    "static/js/main.a8ee181d.js"
   ]
 }
