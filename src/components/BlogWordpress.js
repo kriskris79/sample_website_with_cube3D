@@ -3,8 +3,8 @@ import Table from 'react-bootstrap/Table';
 
 
 import {useEffect, useState} from "react";
-import parse from 'html-react-parser';
-import Axios from 'axios'
+// import parse from 'html-react-parser';
+// import Axios from 'axios'
 
 
 //fake API for testing https://jsonplaceholder.typicode.com/ you can use fetch but axios is better more secure ect
